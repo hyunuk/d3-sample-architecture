@@ -86,6 +86,7 @@
         .attr("dx", 15)
         .attr("dy", 4)
 
+
     simulation.nodes(data.nodes).on('tick', () => {
         nodeElements
             .attr('cx', function (node) { return node.x })
